@@ -26,7 +26,7 @@ public class ApiHelper {
 
 
     /**
-     * 加载所在城市的影讯
+     * 登录
      */
     public static Observable<String> login(Map<String,Object> map) {
         return getApiService()
